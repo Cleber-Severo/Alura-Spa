@@ -1,0 +1,27 @@
+@import '../abstract/variaveis';
+
+.pedraFlor {
+    text-align: center;
+    padding: 1rem;
+    background-color: $cor-terciaria;
+    border-top: 2px solid $cor-primaria;
+    border-bottom: 2px solid $cor-primaria;
+    padding: 1rem 0;
+    margin: 0;
+    h3 {
+        font-size: $tamanho-do-texto / 1.2;
+        color: $cor-primaria;
+        margin-bottom: .5rem;
+    }
+    h4 {
+        font-size: $tamanho-do-texto / 2;
+        color: $cor-secundaria;
+        margin-bottom: .5rem;
+    }
+    p {
+        color: $cor-primaria;
+        margin: 0 8rem;
+        margin-bottom: 0;
+    }
+}
+
